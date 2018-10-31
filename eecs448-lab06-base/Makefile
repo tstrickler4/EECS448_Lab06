@@ -4,10 +4,10 @@
 
 #Add needed Test.o
 prog: main.o
-	g++ -g -Wall -std=c++11 main.o LinkedListOfInts.o -o prog
+	g++ -g -Wall -std=c++11 -no-pie main.o LinkedListOfInts.o -o prog
 
 
-main.o: main.cpp 
+main.o: main.cpp
 	g++ -g -Wall -std=c++11 -c main.cpp
 
 
