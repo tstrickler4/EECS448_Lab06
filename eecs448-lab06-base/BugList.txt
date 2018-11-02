@@ -1,0 +1,5 @@
+Bugs:
+	* isEmpty always returns true
+	* addBack adds to the front of the list
+	* removeFront doesn't remove and returns false
+	* removeBack doesn't remove and returns false
